@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.myra.contact.UpdateActivity">
+
+    <EditText
+        android:id="@+id/name2"
+        android:layout_width="410dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:drawable/divider_horizontal_textfield"
+        android:ems="10"
+        android:hint="      Name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.283"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email2"
+        android:layout_width="413dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="108dp"
+        android:background="@android:drawable/divider_horizontal_textfield"
+        android:ems="10"
+        android:hint="     Address Mail"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.269"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/phone_number2"
+        android:layout_width="413dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="172dp"
+        android:background="@android:drawable/divider_horizontal_textfield"
+        android:ems="10"
+        android:hint="     Phone Number"
+        android:inputType="number|textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ville2"
+        android:layout_width="406dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="240dp"
+        android:background="@android:drawable/divider_horizontal_textfield"
+
+        android:ems="10"
+        android:hint="      City"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="147dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="@color/brown"
+        android:text="Modifier"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ville2"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="131dp"
+        android:layout_height="51dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="Delete"
+
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ville2"
+        app:layout_constraintVertical_bias="0.089" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

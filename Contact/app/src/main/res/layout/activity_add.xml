@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.myra.contact.AddActivity">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="413dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:background="@android:drawable/divider_horizontal_textfield"
+        android:ems="10"
+        android:hint="      Name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="415dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:drawable/divider_horizontal_textfield"
+        android:ems="10"
+        android:hint="         Address Mail"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="404dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="172dp"
+        android:background="@android:drawable/divider_horizontal_textfield"
+        android:ems="10"
+        android:hint="     Phone Number"
+        android:inputType="number|textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ville"
+        android:layout_width="408dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="244dp"
+        android:background="@android:drawable/divider_horizontal_textfield"
+
+        android:ems="10"
+        android:hint=" City"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="320dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:backgroundTint="@color/brown"
+        android:text="Ajouter"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ville" />
+</androidx.constraintlayout.widget.ConstraintLayout>
